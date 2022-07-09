@@ -1,9 +1,10 @@
 import requests
 import pandas as pd
 import sqlite3
+from secrets import token
 
 params = {
-  'access_key': '2c7569c526ba8294d56ca17e0e88bc12',
+  'access_key': token,
   'dep_iata': ["BIO"]
 }
 
